@@ -1,0 +1,41 @@
+/* Navbar.css */
+.brand-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #6FBF73, #3D7C2D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* ✅ Needed for text gradient */
+}
+
+
+
+.modern-navbar {
+  background-color: #e6f4ea; /* light green background */
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link {
+  color: #2e4a32 !important;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #5ca946 !important;
+}
+
+.styled-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  background: linear-gradient(90deg, #5ca946, #98bf64);
+  background-clip: text;                 /* ✅ Standard property added */
+  -webkit-background-clip: text;        /* ✅ WebKit prefix for Chrome/Safari */
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.modern-navbar {
+  background-color: #f4f9f2; /* Eco tone for header */
+}

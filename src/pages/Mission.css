@@ -1,0 +1,25 @@
+.mission-page {
+  background-color: #f5fdf0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.mission-page h2 {
+  color: #98BF64;
+}
+
+.mission-box {
+  background-color: #ffffff;
+  border: 1px solid #d9ebce;
+  transition: transform 0.3s ease;
+}
+
+.mission-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.mission-page h2 {
+  font-size: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 1px;
+}
