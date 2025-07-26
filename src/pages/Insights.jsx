@@ -8,21 +8,21 @@ function Insights() {
   const articles = [
     {
   title: 'Financing the Future: Asia-Pacific Investment Needs',
-  date: 'July 26, 2025',
+  
   summary:
     'A breakdown of the annual investment requirements from 2016–2030 highlights the top priorities for sustainable development in the Asia-Pacific region, with Clean Energy and Climate Action leading at $434 billion annually.',
   image: '/assets/insight1.jpg',
 },
     {
   title: 'Mind the Gap: Infrastructure Investment Shortfalls',
-  date: 'July 26, 2025',
+  
   summary:
     'This chart reveals the investment gap in transport, ICT, and water/sanitation infrastructure across various Asia-Pacific subregions, exposing disparities between current and required investments relative to GDP.',
   image: '/assets/insight2.jpg',
 },
     {
   title: 'Structure of the Green Fund: Powering Low-Carbon Projects',
-  date: 'July 26, 2025',
+ 
   summary:
     'An overview of how climate taxes and sponsors channel funding through Green Funds and financial institutions to support low-carbon projects via loans, equity, and green fund investments.',
   image: '/assets/insight3.jpg',
