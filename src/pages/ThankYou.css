@@ -1,0 +1,60 @@
+/* Full-screen wrapper with eco gradient */
+.thankyou-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f0fdf4, #d0e8cb, #c4e1b1);
+  padding: 2rem;
+  animation: fadeInBg 1s ease-in;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fade-in animation for background */
+@keyframes fadeInBg {
+  from {
+    opacity: 0;
+    background-position: left;
+  }
+  to {
+    opacity: 1;
+    background-position: right;
+  }
+}
+
+/* Header style */
+.thankyou-wrapper h2 {
+  font-size: 2.5rem;
+  color: #3D7C2D;
+}
+
+/* Paragraph */
+.thankyou-wrapper p {
+  font-size: 1.2rem;
+  color: #344e41;
+}
+
+/* Back to Home button */
+.thankyou-wrapper .btn {
+  border-radius: 30px;
+  border: 2px solid #6FBF73;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 128, 0, 0.1);
+}
+
+.thankyou-wrapper .btn:hover {
+  background-color: #6FBF73;
+  color: white;
+  border-color: #6FBF73;
+  transform: translateY(-2px);
+}
+.thankyou-wrapper {
+  background: linear-gradient(135deg, #e6f2e6, #c2e9c2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+

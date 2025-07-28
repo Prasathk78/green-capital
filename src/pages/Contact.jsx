@@ -26,7 +26,7 @@ function Contact() {
               netlify
               action="/thank-you"
             >
-              <input type="hidden" name="form-name" value="contact" />
+               
 
               {/* Required hidden input for Netlify */}
               <input type="hidden" name="form-name" value="contact" />
