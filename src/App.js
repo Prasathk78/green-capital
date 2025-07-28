@@ -16,6 +16,7 @@ import Clients from './pages/Clients';
 import Mission from './pages/Mission';
 import Insights from './pages/Insights';
 import Contact from './pages/Contact';
+import ThankYou from './pages/ThankYou';
 
 import './App.css';
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/mission" element={<Mission />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </main>
       <Footer />
